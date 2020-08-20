@@ -1,0 +1,12 @@
+version: "3"
+services:
+  note-vscode:
+    build: ./docker/
+    container_name: note-vscode
+    volumes:
+      - ./:/book
+    working_dir: /book
+    tty: true
+    command: jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root
+    ports:
+      - 8888:8888

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  note-vscode:
+    build: ../docker/
+    container_name: note-vscode
+    volumes:
+      - ../:/book
+    working_dir: /book
+    tty: true
+    command: sleep infinity

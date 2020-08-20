@@ -1,0 +1,10 @@
+{
+  "name": "note-vscode",
+  "dockerComposeFile": "docker-compose.vscode.yml",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "service": "note-vscode",
+  "workspaceFolder": "/book",
+  "shutdownAction": "stopCompose"
+}

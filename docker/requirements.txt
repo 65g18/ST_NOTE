@@ -1,0 +1,33 @@
+jupyter
+notebook
+tqdm==4.45.0
+matplotlib
+numpy
+scipy
+scikit-learn
+pandas
+numba
+opencv-python
+seaborn
+optuna
+pytest
+tornado==5.1.1
+jupyter_contrib_nbextensions
+jupyterlab
+autopep8
+pillow==6.2.2
+
+# venn
+matplotlib-venn
+
+# NLP Tools
+mecab-python3
+gensim
+pandas-profiling
+
+# pytorch extension
+tensorboardX
+
+# API Server
+flask
+flask-cors
